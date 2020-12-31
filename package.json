@@ -1,51 +1,51 @@
 {
-  "name": "injson",
-  "description": "Command line utility to build json using nested json files.",
-  "version": "0.0.0",
-  "author": "Divyesh Makwana @divyeshmakwana",
-  "bin": {
-    "injson": "bin/run"
-  },
-  "bugs": "https://github.com/divyeshmakwana/injson/issues",
-  "devDependencies": {
-    "@oclif/dev-cli": "^1.26.0",
-    "@types/jsonfile": "^6.0.0",
-    "@types/node": "^10.17.50",
-    "eslint": "^5.16.0",
-    "eslint-config-oclif": "^3.1.0",
-    "eslint-config-oclif-typescript": "^0.1.0",
-    "ts-node": "^8.10.2",
-    "typescript": "^3.9.7"
-  },
-  "engines": {
-    "node": ">=8.0.0"
-  },
-  "files": [
-    "/bin",
-    "/lib"
-  ],
-  "homepage": "https://github.com/divyeshmakwana/injson",
-  "keywords": [
-    "oclif"
-  ],
-  "license": "MIT",
-  "main": "lib/index.js",
-  "oclif": {
-    "bin": "injson"
-  },
-  "repository": "divyeshmakwana/injson",
-  "scripts": {
-    "posttest": "eslint . --ext .ts --config .eslintrc",
-    "prepack": "rm -rf lib && tsc -b && oclif-dev readme",
-    "test": "echo NO TESTS",
-    "version": "oclif-dev readme && git add README.md"
-  },
-  "types": "lib/index.d.ts",
-  "dependencies": {
-    "@oclif/command": "^1.8.0",
-    "@oclif/config": "^1.17.0",
-    "@oclif/plugin-help": "^2.2.3",
-    "jsonfile": "^4.0.0",
-    "tslib": "^1.14.1"
-  }
+    "name": "injson",
+    "description": "Command line utility to build json using nested json files.",
+    "version": "0.0.1",
+    "author": "Divyesh Makwana @divyeshmakwana96",
+    "bin": {
+        "injson": "bin/run"
+    },
+    "bugs": "https://github.com/divyeshmakwana96/injson/issues",
+    "devDependencies": {
+        "@oclif/dev-cli": "^1.26.0",
+        "@types/jsonfile": "^6.0.0",
+        "@types/node": "^10.17.50",
+        "eslint": "^5.16.0",
+        "eslint-config-oclif": "^3.1.0",
+        "eslint-config-oclif-typescript": "^0.1.0",
+        "ts-node": "^8.10.2",
+        "typescript": "^3.9.7"
+    },
+    "engines": {
+        "node": ">=8.0.0"
+    },
+    "files": [
+        "/bin",
+        "/lib"
+    ],
+    "homepage": "https://github.com/divyeshmakwana96/injson",
+    "keywords": [
+        "oclif"
+    ],
+    "license": "MIT",
+    "main": "lib/index.js",
+    "oclif": {
+        "bin": "injson"
+    },
+    "repository": "divyeshmakwana96/injson",
+    "scripts": {
+        "posttest": "eslint . --ext .ts --config .eslintrc",
+        "prepack": "rm -rf lib && tsc -b && oclif-dev readme",
+        "test": "echo NO TESTS",
+        "version": "oclif-dev readme && git add README.md"
+    },
+    "types": "lib/index.d.ts",
+    "dependencies": {
+        "@oclif/command": "^1.8.0",
+        "@oclif/config": "^1.17.0",
+        "@oclif/plugin-help": "^2.2.3",
+        "jsonfile": "^4.0.0",
+        "tslib": "^1.14.1"
+    }
 }
