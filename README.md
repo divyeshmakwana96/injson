@@ -10,6 +10,7 @@ Command line utility to build json using nested json files.
 
 * [Installation](#installation)
 * [Format](#format)
+* [Command](#command)
 
 # Installation
 ```sh-session
